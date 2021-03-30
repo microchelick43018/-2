@@ -40,6 +40,11 @@ void Client::LogIn()
 	fs.close();
 }
 
+void Client::Exit()
+{
+	PutInfoIntoFile();
+}
+
 void Client::PutInfoIntoFile()
 {
 	fstream fs;

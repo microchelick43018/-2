@@ -38,3 +38,7 @@ void User::LogIn()
 	bool isCorrected = false;*/
 
 }
+
+void User::Exit()
+{
+}
